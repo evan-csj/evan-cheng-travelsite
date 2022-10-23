@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #335576;
+}
+
+h4 {
+  color: #DB7A4E;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: #335576;
+}/*# sourceMappingURL=global.css.map */

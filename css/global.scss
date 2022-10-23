@@ -1,0 +1,23 @@
+@import "variables";
+
+* {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    color: $hero-navy;
+}
+
+h4 {
+    color: $hero-orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: $hero-navy;
+}
