@@ -1,14 +1,15 @@
 * {
   margin: 0;
-  font-family: Verdana, sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #335576;
 }
 
 h4 {
   color: #DB7A4E;
+  text-transform: uppercase;
 }
 
 a {
@@ -18,4 +19,12 @@ a {
 
 p {
   color: #335576;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: #FEFAF5;
 }/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,40 @@
+@import "variables";
+
+.hero {
+    background-color: $hero-ivory;
+}
+
+.recommendations {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    &__card {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        margin: 2%;
+        box-shadow: 0 4px 4px 0 rgba($color: #000000, $alpha: 0.2);
+        overflow: hidden;
+        position: relative;
+        
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            color: white;
+            font-size: 28px;
+            position: absolute;
+            bottom: 3%;
+            right: 7%;
+        }
+    }
+}

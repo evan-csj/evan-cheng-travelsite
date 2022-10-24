@@ -2,15 +2,16 @@
 
 * {
     margin: 0;
-    font-family: Verdana, sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: $hero-navy;
 }
 
 h4 {
     color: $hero-orange;
+    text-transform: uppercase;
 }
 
 a {
@@ -20,4 +21,12 @@ a {
 
 p {
     color: $hero-navy;
+}
+
+header {
+    background-color: white;
+}
+
+footer {
+    background-color: $hero-ivory;
 }
