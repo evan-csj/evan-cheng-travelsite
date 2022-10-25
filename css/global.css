@@ -22,9 +22,61 @@ p {
 }
 
 header {
+  padding: 1em 5vw;
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2 {
+  margin-right: 25%;
+}
+header ul {
+  width: 20em;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header ul li {
+  padding: 0.5vh 0;
+}
+header ul li:nth-child(1) {
+  border-bottom: 3px solid #DB7A4E;
 }
 
 footer {
   background-color: #FEFAF5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2em;
+  padding: 3em 5vw;
+}
+footer h2 {
+  padding-bottom: 1em;
+}
+footer h4 {
+  font-size: 10px;
+  padding-bottom: 1em;
+}
+footer section {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer section:not(:first-child) > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
+  row-gap: 1em;
+}
+footer section img {
+  height: 20px;
 }/*# sourceMappingURL=global.css.map */
