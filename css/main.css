@@ -1,30 +1,33 @@
 .hero {
   background-color: #FEFAF5;
-}
-
-.hero {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   padding: 5% 5vw;
 }
 .hero div {
   display: flex;
   flex-direction: column;
   row-gap: 2em;
-  margin: auto 0;
+  justify-content: center;
 }
 .hero div:nth-child(1) {
-  width: 48vw;
+  max-width: 48vw;
+  min-width: 350px;
 }
 .hero div:nth-child(2) {
-  width: 35vw;
+  max-width: 35vw;
+  min-width: 350px;
 }
 .hero div h1, .hero div p, .hero div img {
   width: 100%;
 }
 .hero div h1 {
-  font-size: 36px;
+  color: #335576;
+  font-size: 2em;
   font-weight: 900;
 }
 .hero div a {
@@ -49,14 +52,16 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 25px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   justify-content: center;
-  margin-bottom: 8%;
+  padding-bottom: 8%;
+  margin: 0 5%;
 }
 .container__card {
   width: 260px;
   height: 390px;
   border-radius: 10px;
-  margin: 0 2%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   position: relative;

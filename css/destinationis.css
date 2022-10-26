@@ -1,1 +1,57 @@
-/*# sourceMappingURL=destinationis.css.map */
+main {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+main.hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+main.iceland {
+  background-image: url(../assets/images/iceland.jpg);
+}
+main.greece {
+  background-image: url(../assets/images/greece.jpg);
+}
+main h1 {
+  font-size: 60px;
+  color: white;
+  padding: 3% 0 3% 5vw;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  justify-content: center;
+  padding-bottom: 8%;
+  margin: 0 5%;
+}
+main .container__card {
+  width: 260px;
+  height: 380px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container__card h3 {
+  text-align: center;
+  border-bottom: 3px solid black;
+  width: 90%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+main .container__card ul {
+  padding: 0;
+  width: 100%;
+}
+main .container__card ul li {
+  background-color: #FEFAF5;
+  text-align: center;
+  width: 90%;
+  padding: 1em 0;
+  margin: 1em auto;
+}/*# sourceMappingURL=destinationis.css.map */
