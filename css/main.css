@@ -27,6 +27,16 @@
   font-size: 36px;
   font-weight: 900;
 }
+.hero div a {
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background-color: #DB7A4E;
+  padding: 1em;
+  width: 200px;
+  height: 52px;
+  border-radius: 26px;
+}
 
 .recommendations {
   background-color: white;

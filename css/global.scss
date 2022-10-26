@@ -24,13 +24,26 @@ p {
 }
 
 header {
-    padding: 1em 5vw;
-    background-color: white;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 5vw;
+    background-color: rgba($color: white, $alpha: 0.8);
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    justify-content: space-between;
-    align-items: center;
+
+    @media only screen and (min-width: 700px){
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    @media only screen and (max-width: 700px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 10px;
+        height: 100px;
+    }
 
     h2 {
         margin-right: 25%;
@@ -52,6 +65,16 @@ header {
             }
         }
     }
+}
+
+.header-empty {
+    @media only screen and (min-width: 700px){
+        height: 60px;
+    }
+    @media only screen and (max-width: 700px){
+        height: 100px;
+    }
+    background-color: white;
 }
 
 footer {
