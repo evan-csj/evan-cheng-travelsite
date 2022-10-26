@@ -2,6 +2,32 @@
   background-color: #FEFAF5;
 }
 
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5% 5vw;
+}
+.hero div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  margin: auto 0;
+}
+.hero div:nth-child(1) {
+  width: 48vw;
+}
+.hero div:nth-child(2) {
+  width: 35vw;
+}
+.hero div h1, .hero div p, .hero div img {
+  width: 100%;
+}
+.hero div h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
 .recommendations {
   background-color: white;
 }

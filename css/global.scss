@@ -46,6 +46,7 @@ header {
 
         li {
             padding: 0.5vh 0;
+            text-align: center;
             &:nth-child(1) {
                 border-bottom: 3px solid $hero-orange;
             }
@@ -57,9 +58,18 @@ footer {
     background-color: $hero-ivory;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     row-gap: 2em;
-    padding: 3em 5vw;
+    column-gap: 3em;
+    padding: 3em 15vw;
+    @media only screen and (min-width: 1250px) {
+        justify-content: space-between;
+    }
+    @media only screen and (max-width: 1250px) {
+        justify-content: flex-start;
+    }
+    @media only screen and (max-width: 700px) {
+        flex-direction: column;
+    }
 
     h2 {
         padding-bottom: 1em;
@@ -79,9 +89,15 @@ footer {
         &:not(:first-child)>div {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: flex-start;
             column-gap: 3em;
             row-gap: 1em;
+        }
+
+        &:nth-child(2)>div {
+            @media only screen and (max-width: 700px) {
+                flex-direction: column;
+            }
         }
 
         img {
