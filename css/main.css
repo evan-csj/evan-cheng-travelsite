@@ -59,21 +59,52 @@
   margin: 0 5%;
 }
 .container__card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-clip: padding-box;
   width: 260px;
   height: 390px;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  position: relative;
+  transition: box-shadow 300ms, transform 300ms, border-color 300ms;
 }
-.container__card img {
+.container__card:nth-child(1) {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+.container__card:nth-child(2) {
+  background-image: url(../assets/images/iceland.jpg);
+}
+.container__card:nth-child(3) {
+  background-image: url(../assets/images/greece.jpg);
+}
+.container__card a {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: background-color 300ms ease;
 }
-.container__card h3 {
+.container__card a h3 {
   color: white;
-  font-size: 28px;
-  position: absolute;
-  bottom: 3%;
-  right: 7%;
+  font-size: 24px;
+  padding: 6%;
+  transition: box-shadow 300ms, transform 300ms, font-size 300ms;
+}
+.container__card:hover {
+  border: 1px solid white;
+  transform: translateY(-5px);
+  box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+}
+.container__card:hover a {
+  background: linear-gradient(transparent 80%, rgba(0, 0, 0, 0.4));
+  border-radius: 4px;
+}
+.container__card:hover a h3 {
+  font-size: 36px;
+  text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px) translateX(-5px);
 }/*# sourceMappingURL=main.css.map */

@@ -33,12 +33,13 @@ main {
         &__card {
             width: 260px;
             height: 380px;
-            border-radius: 10px;
+            border-radius: 5px;
             background-color: white;
             box-shadow: 0 4px 4px 0 rgba($color: #000000, $alpha: 0.2);
             display: flex;
             flex-direction: column;
             align-items: center;
+
             h3 {
                 text-align: center;
                 border-bottom: 3px solid black;

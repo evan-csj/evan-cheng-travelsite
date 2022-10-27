@@ -65,8 +65,9 @@ header {
             padding: 0.5vh 0;
             text-align: center;
             border-bottom: 3px solid rgba($color: white, $alpha: 0);
+            transition: border 200ms ease-out;
+
             &:hover {
-                transition: border 200ms ease-out;
                 border-bottom: 3px solid rgba($color: $hero-orange, $alpha: 0.6);
             }
             &.highlight {
