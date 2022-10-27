@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Started</title>
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/destinationis.css">
+    <link rel="stylesheet" href="../css/get-started.css">
 </head>
 <body>
     <header>
@@ -31,7 +31,45 @@
         </nav>
     </header>
     <main>
-
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div>
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div>
+                <label for="destination">Destination: </label>
+                <select name="destination" id="destination" required>
+                    <option value="">Choose a destination</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="iceland">Iceland</option>
+                    <option value="greece">Greece</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="40"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit">
+        </div>
     </main>
     <footer>
         <section>
