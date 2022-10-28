@@ -17,38 +17,25 @@ main h1 {
   color: white;
   padding: 3% 0 3% 5vw;
 }
-main .container {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 25px;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
-  justify-content: center;
-  padding-bottom: 8%;
-  margin: 0 5%;
-}
-main .container__card {
-  width: 260px;
-  height: 380px;
-  border-radius: 5px;
+
+.container__card--no-bg {
   background-color: white;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .container__card h3 {
+.container__card--no-bg h3 {
   text-align: center;
   border-bottom: 3px solid black;
   width: 90%;
   padding-top: 5%;
   margin-bottom: 5%;
 }
-main .container__card ul {
+.container__card--no-bg ul {
   padding: 0;
   width: 100%;
 }
-main .container__card ul li {
+.container__card--no-bg ul li {
   background-color: #FEFAF5;
   text-align: center;
   width: 90%;

@@ -145,4 +145,21 @@ footer section img {
   padding: 1em;
   height: 52px;
   border-radius: 26px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  justify-content: center;
+  padding-bottom: 8%;
+  margin: 0 5%;
+}
+.container__card {
+  width: 260px;
+  height: 390px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=global.css.map */
