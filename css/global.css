@@ -30,7 +30,6 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: 100vw;
   box-sizing: border-box;
   padding: 0 5vw;
   background-color: rgba(255, 255, 255, 0.8);
@@ -134,4 +133,16 @@ footer section:nth-child(3) > div {
 }
 footer section img {
   height: 20px;
+}
+
+.btn {
+  width: 150px;
+  font-size: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background-color: #DB7A4E;
+  padding: 1em;
+  height: 52px;
+  border-radius: 26px;
 }/*# sourceMappingURL=global.css.map */

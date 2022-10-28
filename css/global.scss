@@ -31,7 +31,6 @@ header {
     z-index: 1;
     position: sticky;
     top: 0;
-    width: 100vw;
     box-sizing: border-box;
     padding: 0 5vw;
     background-color: rgba($color: white, $alpha: 0.8);
@@ -135,5 +134,16 @@ footer {
             height: 20px;
         }
     }
+}
 
+.btn {
+    width: 150px;
+    font-size: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: $hero-orange;
+    padding: 1em;
+    height: 52px;
+    border-radius: 26px;
 }
